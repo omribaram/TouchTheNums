@@ -1,0 +1,119 @@
+/*
+
+Have the students explore and engage with CSS at this early stage,
+So that they develope "an eye" to aesthetics and layouting.
+They could expierence working with online simple CSS generators such as 3D texts, borders etc.
+
+*/
+
+html {
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(45deg, #dadada 0, #dadada 0.7000000000000001px, #ffffff 0, #ffffff 50%);
+}
+
+header {
+    margin: 30px 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+table {
+    border: 4px double #ae9779;
+    border-radius: 20px;
+    margin: auto;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px;
+    width: 500px;
+    height: 480px;
+    table-layout: fixed;
+}
+
+table td {
+    border: 3px solid beige;
+    padding: 23px;
+    background-color: #edb35d8f;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    transition: background-color 0.5s, border-radius 0.5s;
+    cursor: pointer;
+}
+
+table td.clicked {
+    background-color: #edb35d;
+    opacity: 1;
+    border-radius: 0px 20px 0px 20px;
+}
+
+button {
+    background-image: linear-gradient(to right, #cca773 0%, #edb35d 51%, #cca773 100%);
+    border: 0.5px solid #dbdbdb;
+    margin: 0 10px;
+    padding: 12px;
+    transition: background-position 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.controls {
+    border: 4px double #ae9779;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px 0;
+    width: 500px;
+}
+
+.levels {
+    color: #ae9779;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 70px
+}
+
+.levels span {
+    vertical-align: middle;
+}
+
+.stats {
+    font-weight: 400;
+    font-size: 26px;
+    color: #8a7e67;
+    margin-left: 70px;
+}
+
+.stats span {
+    vertical-align: sub;
+}
+
+.next-num {
+    color: sienna;
+    text-shadow: 1px 1px black;
+    font-size: 35px;
+    border-right: 4px double #8a7e67;
+    padding-right: 10px;
+}
+
+.stopwatch {
+    color: sienna;
+    text-shadow: 1px 1px black;
+    font-size: 35px;
+}

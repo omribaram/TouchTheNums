@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Touch the Nums</title>
+  </head>
+
+  <body onload="init()">
+    <header>
+      <img class="logo" src="./img/logo.png" />
+      <div class="controls">
+        <div class="levels">
+          <span>Game level:</span>
+          <button onclick="changeLevel(16)">16</button>
+          <button onclick="changeLevel(25)">25</button>
+          <button onclick="changeLevel(36)">36</button>
+        </div>
+
+        <div class="stats">
+          <span>Next number: </span>
+          <span class="next-num"></span>
+          <span> Time: </span>
+          <span class="stopwatch"></span>
+        </div>
+      </div>
+    </header>
+
+    <table>
+      <tbody class="board"></tbody>
+    </table>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
